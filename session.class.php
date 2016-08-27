@@ -4,6 +4,7 @@
      * 1.数据库保存,IP,时间,数据,session_id,可以扩展其他字段
      * 2.需要修改php.ini配置文件session.save_handler = user
      * 3.在需要用到session时,加载此类
+     * 4.如需扩展,请自行添加相应的功能
      * */
      class Session{
         //保存IP
